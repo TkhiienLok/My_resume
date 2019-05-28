@@ -1,11 +1,14 @@
-# Created by https://www.gitignore.io/api/python,windows,notepadpp
-# Edit at https://www.gitignore.io/?templates=python,windows,notepadpp
+myvenv
 
-### NotepadPP ###
-# Notepad++ backups #
-*.bak
+# Created by https://www.gitignore.io/api/flask,python,windows,notepadpp
+# Edit at https://www.gitignore.io/?templates=flask,python,windows,notepadpp
 
-### Python ###
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -69,7 +72,6 @@ db.sqlite3
 
 # Flask stuff:
 instance/
-.webassets-cache
 
 # Scrapy stuff:
 .scrapy
@@ -90,13 +92,6 @@ ipython_config.py
 # pyenv
 .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
 # celery beat schedule file
 celerybeat-schedule
 
@@ -111,7 +106,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-myvenv
 
 # Spyder project settings
 .spyderproject
@@ -131,29 +125,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+### NotepadPP ###
+# Notepad++ backups #
+*.bak
 
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.gitignore.io/api/python,windows,notepadpp
