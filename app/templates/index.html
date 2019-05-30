@@ -3,6 +3,7 @@
 {% block head %}
     {{ super() }}
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
 {% endblock %}
 
 {% block styles %}
@@ -19,7 +20,7 @@
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="{{url_for('static', filename='images/profile.png')}}" alt="" />
+                <img class="profile" src="{{url_for('static', filename='images/profile.gif')}}" alt="" />
                 <h1 class="name"> {{ config.data.name }} </h1>
                 <h3 class="tagline">{{ config.data.tagline }}</h3>
             </div><!--//profile-container-->
@@ -28,10 +29,9 @@
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{ config.data.email }}">{{ config.data.email }}</a></li>
                     <li class="phone"><i class="fa fa-phone"></i>{{ config.data.phone }}</li>
-                    <li class="website"><i class="fa fa-globe"></i><a href={{ config.data.website }} target="_blank">{{ config.data.website }}</a></li>
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://{{ config.data.linkedin }}" target="_blank">{{ config.data.linkedin }}</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://{{ config.data.github }}" target="_blank">{{ config.data.github}}</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ config.data.twitter }}" target="_blank">{{ config.data.twitter }}</a></li>
+
                 </ul>
             </div><!--//contact-container-->
             <div class="education-container container-block">

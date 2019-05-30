@@ -69,6 +69,7 @@ p {
   text-align: center;
   color: #fff;
 }
+
 .sidebar-wrapper .name {
   font-size: 32px;
   font-weight: 900;
@@ -84,6 +85,8 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  width:100px;
+  border-radius: 50px;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -100,7 +103,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -225,7 +228,7 @@ p {
   margin-bottom: 30px;
 }
 .main-wrapper .projects-section .item {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .skillset .item {
   margin-bottom: 15px;

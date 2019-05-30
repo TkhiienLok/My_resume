@@ -3,29 +3,31 @@ Summary
 -------
 The summary is a brief intro. You can put raw HTML into this field.
 """
-summary = '<p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>'
+summary = "<p>Experienced Teacher with a demonstrated history of working in the primary/secondary education industry. \
+Strong education professional with a Bachelors degree focused in Computer Science from Kharkiv National \
+Pedagogical Univercity of G.S. Scovoroda. </p><p>Aiming to perform difficult tasks that require hard skills in programming \
+and deep understanding of programming principles. But so far have an experience just in Python/Git/HTML5/CSS/JS/JQuery/Wordpress/basics of \
+MySQL, Pandas&Numpy (Worked with Jupyter Notebook)\
+/ Flask /C# </p>"
 
 
 languages = [
-        ['English', ' (Native)'],
-        ['French', ' (Proffesional)'],
-        ['Spanish', ' (Proffesional)']
-        ]
+        ['English', ' (Upper Intermidiate)'],
+        ['Russian', ' (Native)'],
+        ['Spanish', ' (Elementary)'],
+        ['Ukrainian', ' (Native)']]
 
 education = [
-        ['MSc in Computer Science', 'University of London', '2011 - 2012'],
-        ['BSc in Applied Mathematics', 'Bristol University', '2007 - 2011']
+        ['BSc in Computer Science', 'KhNPU of G.S. Scovoroda', '2013 - 2017']
         ]
 
-interests = ['Climbing', 'Snowboarding', 'Cooking']
+interests = ['Programming', 'Digital Art']
 
 skills = [
-        ['Python & Django', '98%'],
-        ['Javascript & jQuery', '98%'],
-        ['Angular', '98%'],
-        ['HTML5 & CSS', '95%'],
-        ['Ruby on Rails', '85%'],
-        ['Sketch & Photoshop', '60%']
+        ['Python & Django', '75%'],
+        ['Javascript & jQuery', '65%'],
+        ['HTML5 & CSS', '90%'],
+        ['MyPaint & Photoshop & Gimp & ScatchUp', '85%']
         ]
 
 """
@@ -39,21 +41,12 @@ The 'Description of role' field does not get escaped by the templating engine,
 so you can put raw HTML in it if you like.
 """
 experience = [
-        ['Lead Developer',
+        ['Programming Tutor',
             '2015 - Present',
-            'Startup Hubs, San Francisco',
-            '<p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>'
-        ],
-        ['Senior Software Engineer',
-            '2014 - 2015',
-            'Google, London',
-            '<p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>'
-        ],
-        ['UI Developer',
-            '2012 - 2014',
-            'Amazon, London',
-            '<p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>'
+            'IT-Univer, Kharkiv',
+            '<p>Teaching middle/high school students programming in Python. Also a private tutor for older students</p> '
         ]
+
     ]
 
 """
@@ -66,26 +59,12 @@ and is of the form:
 """
 project_intro = '<p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>'
 projects = [
-        ['Velocity',
-            'A responsive website template designed to help startups promote, market and sell their products.',
-            '#hook'
-        ],
-        ['DevStudio',
-            'A responsive website template designed to help startups promote, market and sell their products.',
-            'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/'
-        ],
-        ['Tempo',
-            'A responsive website template designed to help startups promote their products or services and to attract users &amp; investors.',
-            'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/'
-        ],
-        ['Atom',
-            'A comprehensive website template solution for startups/developers to market their mobile apps.',
-            'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/'
-        ],
-        ['Delta',
-            'A responsive Bootstrap one page theme designed to help app developers promote their mobile apps.',
-            'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/'
+        ['DjangoGirls  – workshop',
+            'Students make a small working web application, their own blog, using Django framework and deploy it via \
+            git on pythonanywhere',
+
         ]
+
     ]
 
 
@@ -97,21 +76,18 @@ This dictionary puts everything together. It will be read by the Flask app when
 it is instantiated.
 """
 default_data = {
-    'site_title' : 'Responsive Resume/CV Template for Developers',
-    'name' : 'Alan Doe',
-    'tagline' : 'Full Stack Developer',
-    'email' : 'alan.doe@website.com',
-    'phone' : '0123 456 789',
-    'website' : 'portfoliosite.com',
-    'linkedin' : 'linkedin.com/in/alandoe',
-    'github' : 'github.com/username',
-    'twitter' : '@twittername',
+    'site_title': 'Responsive Resume/Lok Chan CV',
+    'name': 'Tkhiien Lok Chan',
+    'tagline': 'Python Developer',
+    'email': 'tkhiien@gmail.com',
+    'phone': '+38(096)-936-48-91',
+    'linkedin': 'linkedin.com/in/tkhiien-lok-chan-629a6a125/',
+    'github': 'github.com/TkhiienLok',
     'languages' : languages,
     'education' : education,
     'interests' : interests,
     'skills' : skills,
     'summary' : summary,
     'experience' : experience,
-    'project_intro' : project_intro,
     'projects' : projects
     }
