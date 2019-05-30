@@ -27,7 +27,8 @@ skills = [
         ['Python & Django', '75%'],
         ['Javascript & jQuery', '65%'],
         ['HTML5 & CSS', '90%'],
-        ['MyPaint & Photoshop & Gimp & ScatchUp', '85%']
+        ['MyPaint & Photoshop & Gimp & ScatchUp', '85%'],
+        ['AngularJS & AJAX', '45%']
         ]
 
 """
