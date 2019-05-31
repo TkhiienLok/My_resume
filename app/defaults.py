@@ -70,8 +70,8 @@ projects = [['Web Application for my CV',
              'https://github.com/TkhiienLok/Snake-Pygame'],
 
             ['Django Blog',
-            'Simple blog app made on DjangoGirls  – workshop Students make a small working web application, their own blog, using Django framework and deploy it via \
-            git on pythonanywhere.com',
+            'Simple blog app made on DjangoGirls  – workshop. Students make a small working web application, their\
+             own blog, using Django framework and deploy it via git on pythonanywhere.com',
              'http://tkhiienlok.pythonanywhere.com/']
 
     ]
