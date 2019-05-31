@@ -1,1 +1,1 @@
-web: gunicorn run_resume_app:app --preload
+worker: gunicorn run_resume_app:app --preload
