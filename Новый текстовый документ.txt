@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath run_resume_app:app
+web: gunicorn run_resume_app:app
