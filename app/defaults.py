@@ -69,10 +69,10 @@ projects = [['Web Application for my CV',
              pygame, tkinter and files. Check it out on github',
              'https://github.com/TkhiienLok/Snake-Pygame'],
 
-            ['DjangoGirls  – workshop',
-            'Students make a small working web application, their own blog, using Django framework and deploy it via \
-            git on pythonanywhere',
-             ]
+            ['Django Blog',
+            'Simple blog app made on DjangoGirls  – workshop Students make a small working web application, their own blog, using Django framework and deploy it via \
+            git on pythonanywhere.com',
+             'http://tkhiienlok.pythonanywhere.com/']
 
     ]
 
