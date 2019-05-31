@@ -58,13 +58,21 @@ Project are a list of lists, where each sublist refers to a specific project,
 and is of the form:
     ['Title', 'Description', 'Link to project webpage']
 """
-project_intro = '<p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>'
-projects = [
-        ['DjangoGirls  – workshop',
+project_intro = '<p>You can list your side projects or open source libraries in this section. </p>'
+projects = [['Web Application for my CV',
+            'Application was built with Flask and deployed on heroku.com.\
+             Check it out on github https://github.com/TkhiienLok/My_resume',
+             'https://appformycv.herokuapp.com/'
+             ],
+            ['Snake Pygame',
+             'Game "Snake" with a basic logic. The project demonstrates work with \
+             pygame, tkinter and files. Check it out on github',
+             'https://github.com/TkhiienLok/Snake-Pygame'],
+
+            ['DjangoGirls  – workshop',
             'Students make a small working web application, their own blog, using Django framework and deploy it via \
             git on pythonanywhere',
-
-        ]
+             ]
 
     ]
 
