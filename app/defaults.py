@@ -61,18 +61,23 @@ and is of the form:
 project_intro = '<p>You can list your side projects or open source libraries in this section. </p>'
 projects = [['Web Application for my CV',
             'Application was built with Flask and deployed on heroku.com.\
-             Check it out on github https://github.com/TkhiienLok/My_resume',
+             Check it out on github https://github.com/TkhiienLok/My_resume.',
              'https://appformycv.herokuapp.com/'
              ],
             ['Snake Pygame',
              'Game "Snake" with a basic logic. The project demonstrates work with \
-             pygame, tkinter and files. Check it out on github',
+             pygame, tkinter and files. Check it out on github.',
              'https://github.com/TkhiienLok/Snake-Pygame'],
 
             ['Django Blog',
             'Simple blog app made on DjangoGirls  – workshop. Students make a small working web application, their\
-             own blog, using Django framework and deploy it via git on pythonanywhere.com',
-             'http://tkhiienlok.pythonanywhere.com/']
+             own blog, using Django framework and deploy it via git on pythonanywhere.com. Project on github \
+             https://github.com/TkhiienLok/my-first-blog.',
+             'http://tkhiienlok.pythonanywhere.com/'],
+
+            ['KMeans algorithm',
+             'Demonstration of KMeans clustering algorithm in Jupyter Notebook.',
+             'https://github.com/TkhiienLok/Clustering-in-Numpy-Pandas']
 
     ]
 
