@@ -6,9 +6,8 @@ The summary is a brief intro. You can put raw HTML into this field.
 summary = "<p>Experienced Teacher with a demonstrated history of working in the primary/secondary education industry. \
 Strong education professional with a Bachelors degree focused in Computer Science from Kharkiv National \
 Pedagogical Univercity of G.S. Scovoroda. </p><p>Aiming to perform difficult tasks that require hard skills in programming \
-and deep understanding of programming principles. But so far have an experience just in Python/Git/HTML5/CSS/JS/JQuery/Wordpress/basics of \
-MySQL, Pandas&Numpy (Worked with Jupyter Notebook)\
-/ Flask /C# </p>"
+and deep understanding of programming principles. But so far have an experience just in Python, Git, HTML5/CSS/JS/JQuery/WordPress, \
+basics of MySQL, Pandas&Numpy (Worked with Jupyter Notebook), Flask, C# </p>"
 
 
 languages = [
@@ -27,7 +26,7 @@ skills = [
         ['Python & Django', '75%'],
         ['Javascript & jQuery', '65%'],
         ['HTML5 & CSS', '90%'],
-        ['MyPaint & Photoshop & Gimp & ScatchUp', '85%'],
+        ['MyPaint, Photoshop & Gimp, ScatchUp', '85%'],
         ['AngularJS & AJAX', '45%']
         ]
 
